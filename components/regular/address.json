@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_regular_addresses",
+  "info": {
+    "name": "address",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    }
+  }
+}
