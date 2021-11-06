@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutuses",
+  "info": {
+    "name": "AboutUs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "overview": {
+      "type": "richtext"
+    },
+    "missionVisionValues": {
+      "type": "richtext"
+    },
+    "theViantusAdvantage": {
+      "type": "richtext"
+    },
+    "globalDeliveryModel": {
+      "type": "richtext"
+    },
+    "clients": {
+      "type": "richtext"
+    },
+    "partners": {
+      "type": "richtext"
+    },
+    "diversity": {
+      "type": "richtext"
+    },
+    "factSheet": {
+      "type": "richtext"
+    }
+  }
+}

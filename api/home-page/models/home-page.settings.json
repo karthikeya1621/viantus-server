@@ -32,6 +32,11 @@
     },
     "featuredBlogs": {
       "collection": "blogs"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.partner"
     }
   }
 }
