@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions",
+  "info": {
+    "name": "Solutions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cloudIntegration": {
+      "type": "richtext"
+    },
+    "supplyChainManagement": {
+      "type": "richtext"
+    },
+    "appDevelopment": {
+      "type": "richtext"
+    }
+  }
+}

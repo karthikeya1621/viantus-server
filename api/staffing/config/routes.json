@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/staffing",
+      "handler": "staffing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/staffing",
+      "handler": "staffing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/staffing",
+      "handler": "staffing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

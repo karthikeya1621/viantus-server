@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "staffings",
+  "info": {
+    "name": "Staffing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "training": {
+      "type": "richtext"
+    },
+    "directHiring": {
+      "type": "richtext"
+    },
+    "contractHiring": {
+      "type": "richtext"
+    },
+    "consultantsOnDemand": {
+      "type": "richtext"
+    }
+  }
+}
