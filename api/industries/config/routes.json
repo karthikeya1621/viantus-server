@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/industries",
+      "handler": "industries.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/industries",
+      "handler": "industries.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/industries",
+      "handler": "industries.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

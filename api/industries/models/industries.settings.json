@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "industries",
+  "info": {
+    "name": "Industries"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bankingAndFinancialServices": {
+      "type": "richtext"
+    },
+    "education": {
+      "type": "richtext"
+    },
+    "energyUtilities": {
+      "type": "richtext"
+    },
+    "healthcare": {
+      "type": "richtext"
+    },
+    "highTech": {
+      "type": "richtext"
+    },
+    "insurance": {
+      "type": "richtext"
+    },
+    "lifeSciences": {
+      "type": "richtext"
+    },
+    "manufacturing": {
+      "type": "richtext"
+    },
+    "publicSector": {
+      "type": "richtext"
+    },
+    "retailAndCustomerProducts": {
+      "type": "richtext"
+    },
+    "telecom": {
+      "type": "richtext"
+    },
+    "travel": {
+      "type": "richtext"
+    }
+  }
+}
