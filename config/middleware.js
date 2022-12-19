@@ -3,5 +3,8 @@ module.exports = {
       cors: {
         enabled: true
       },
+      customMiddleware: {
+        enabled: true
+      }
     },
   };
